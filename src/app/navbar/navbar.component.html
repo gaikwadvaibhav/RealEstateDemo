@@ -1,0 +1,87 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item  ">
+        <a class="nav-link" [routerLink]="['register']">Register <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" style="float:right;">
+        <a class="nav-link" [routerLink]="['login']">Login</a>
+      </li>
+      
+    </ul>     
+  </div>
+</nav>
+
+
+<br>
+ 
+
+   <ul class="nav justify-content-center">
+
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">HOME</a>
+      <div class="dropdown-content">
+          <a href="#">After Login</a>
+          <a href="#">Home Alternative</a>
+          <a href="#">Dashboard</a>
+        </div>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">LISTING</a>
+      <div class="dropdown-content">
+          <a href="#">Grid View</a>
+          <a href="#">List View</a>
+          <a href="#">Map View</a>
+          <a href="#">Listing Detail</a>          
+        </div>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">SUBMIT</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link " href="#">MORTGAGES </a>
+      <div class="dropdown-content">
+          <a href="#">Mortgage Review</a>
+          <a href="#">Mortgage Detail</a>
+          <a href="#">Mortgage Disclaimer</a>
+         </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">AGENTS</a>
+      <div class="dropdown-content">
+          <a href="#">Agent Detail</a>
+          <a href="#">Agent Property</a>
+          <a href="#">Agent Reviwes</a>
+         </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">CONTACTS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="#">MORE </a>
+      <div class="dropdown-content">
+          <a href="#">Profile Private</a>
+          <a href="#">Profile Public</a>
+          <a href="#">Blog</a>
+          <a href="#">FAQ</a>
+          <a href="#">Team</a>
+          
+          
+         </div>
+    </li>
+
+  </ul>
+ 
+
+<div>
+    <app-searchbox></app-searchbox>
+</div>

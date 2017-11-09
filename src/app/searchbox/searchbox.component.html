@@ -1,0 +1,55 @@
+ 
+<div class="container ">
+    <div class="col-md-12 jumbotron ">
+       <div class="row ">
+            <div class="col-md-2">
+                <button type="button" style="margin-left:auto" class="btn btn-default" aria-label="center Align">
+                        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                </button>   
+            </div> 
+            <div class="col-md-3">
+                <input id="typeahead-format" placeholder="Keyword" type="text" 
+                class="form-control"  />    
+            </div> 
+            <div class="col-md-3">
+                    <input id="typeahead-format" placeholder="Enter Your City" type="text" 
+                    class="form-control" [(ngModel)]="model" [ngbTypeahead]="search"
+                    [resultFormatter]="formatter" />                
+            </div>
+            <div class="col-md-4">
+                <select id="basic" class="btn btn-info" >
+                        <option class="btn btn-default"> -Status- </option>
+                        <option class="btn btn-Success">Rent </option>
+                        <option class="btn btn-primary">Buy</option>
+                        <option class="btn btn-danger">used</option>  
+                </select>        
+            </div>     
+    </div>
+
+
+
+    <div class="row ">
+        
+        <div class="col-md-4">
+            <input id="typeahead-format" placeholder="Keyword" type="text" 
+            class="form-control"  />    
+        </div> 
+        <div class="col-md-4">
+                <input id="typeahead-format" placeholder="Enter Your City" type="text" 
+                class="form-control" [(ngModel)]="model" [ngbTypeahead]="search"
+                [resultFormatter]="formatter" />                
+        </div>
+        <!-- <div class="col-md-4">
+            <select id="basic" class="btn btn-info" >
+                    <option class="btn btn-default"> -Status- </option>
+                    <option class="btn btn-Success">Rent </option>
+                    <option class="btn btn-primary">Buy</option>
+                    <option class="btn btn-danger">used</option>  
+            </select>        
+        </div>      -->
+</div>
+
+
+  </div>
+</div>
+ 

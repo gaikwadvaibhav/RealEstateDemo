@@ -1,0 +1,17 @@
+ #basic{
+     margin-bottom: 15%;
+     width: 40%;
+ }
+
+ .btn {
+    display:list-item;
+    padding: 5px,10px;
+}
+
+ .col-md-3, .col-md-2 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 4px;
+}
+    
